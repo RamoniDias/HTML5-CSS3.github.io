@@ -1,30 +1,57 @@
-body{
-  background: #cccccc;;
-
+body {
+  /*background: #cccccc;;*/
 } 
 
-#banner{
-  width: 100%;
-
-  
+.Titulo-centralizado{
+  text-align: center; /* Alinhar Título no Centro*/
 }
 
-h1{
-  text-align: center;
+.Titulo-principal{
+  padding-left: 20px;
+}
 
-} 
+.Principal {
+  background:#cccccc;;;/* Mudar Cor de Fundo, div*/
+  padding: 30px;
+}
+
+#banner { /* Largura da FOTO*/
+  width: 100%;
+}
 
 p {
-  text-align: center;
-    
+  text-align: center;/* Alinhar Parágrafo no Centro*/    
 }  
 
-#missao{
+#missao{ /* Fonte do Parágrafo */
   font-size: 20px;
-
 }
 
 em strong{
-  color: red;
-
+  color: red; 
+  /* Deixar na cor Vermelho o que esta em Negrito especifico "em"*/
 }
+
+/* Estilo da LISTA, com CLASSSE */
+.itens {
+  font-style: italic; /* Deixar ITÁLICO;*/
+}
+
+.Beneficios {
+  background:#fffdfd;/* Mudar Cor do Plano de Fundo */
+  padding: 20px; /* Ajustar espacos nos 4 lados iguais*/
+}
+
+ul {
+  display: inline-block;
+  vertical-align:top;
+  width: 20%;
+  margin-right: 15%; /*Margem, espaco para a Direita*/
+}
+
+.imagemBeneficios{
+  width: 50%; /*Largura*/
+}
+
+
+
